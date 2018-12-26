@@ -1,0 +1,5 @@
+sitemap our_home label="Our Home" {
+	Frame label="MQTT" {
+                Switch item=megadp13 label="Свет гостинная"
+        }
+}

@@ -1,0 +1,29 @@
+sitemap demo label="Demo" {
+	Frame label="Кухня Гостинная" {
+                Switch item=megadp1413 label="Свет гостинная яркий"
+                Switch item=megadp1509 label="Свет гостинная тихий"
+                Switch item=megadp1507 label="Свет кухня столешница"
+                Switch item=megadp1510 label="Свет кухня стол"
+
+        }
+
+	Frame label="Другой свет" {
+                Switch item=megadp1512 label="Свет гараж"
+                Switch item=megadp1511 label="Свет терраса"
+                Switch item=megadp1513 label="Свет корридор"
+
+	}
+
+	Frame label="Розетки" {
+                Switch item=megadp1412 label="Стиралка&Сушилка"
+	}
+	
+	Frame label="Двор" {
+		Switch item=esp_garden label="Свет во дворе"
+	}
+    Frame label="Гараж" {
+            Default item=garage_temp label="Температура"
+            Default item=garage_hum label="Влажность"
+    }
+	
+}

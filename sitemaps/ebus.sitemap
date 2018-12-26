@@ -1,0 +1,36 @@
+sitemap ebus label="eBus" {
+    Frame {
+Text item=HU_Temp_Warm_Wather
+Text item=HU_Temp_M_Warm_Wather
+Text item=HU_Temp_T_Warm_Wather
+Text item=HU_Temp_Heat_Vessel
+Text item=HU_Temp_T_Heat_Vessel
+Text item=HU_Temp_Heat_Return
+Text item=HU_Temp_Heat_Exhaust
+Text item=HU_Temp_AvgOutdoor
+Text item=HU_Temp_Outdoor
+Switch item=SOL_Status_Pump
+Text item=SOL_Temp_Collector
+Text item=SOL_Temp_Return
+Text item=SOL_Temp_Reservoir
+Text item=SOL_Yield_Sum
+Text item=SOL_Yield_Day
+Text item=SOL_Yield_Current
+Text item=HU_Performance_Burner
+Text item=HU_Performance_Pump
+Text item=HU_No_Of_Firing
+Text item=HU_Op_Hrs
+Switch item=HU_Status_Alarm
+Switch item=HU_Status_Fire
+Text item=HU_Status
+Text item=HU_Pressure_System
+Text item=HU_FW_Version
+Text item=HU_StatusReq1
+Text item=HU_StatusReq2
+Text item=HU_Program_HC
+Switch item=HU_Status_Pump
+    }
+
+
+}
+
