@@ -1,0 +1,8 @@
+sitemap test label="Test" {
+
+Text    item=garage_temp
+Text    item=garage_hum
+
+Chart item=garage_temp refresh=6000 period=8760h
+
+}

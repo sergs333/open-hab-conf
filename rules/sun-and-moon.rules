@@ -1,0 +1,28 @@
+rule "Evening night start" /*???????? ?????? */
+when
+    Channel 'astro:sun:home:set#event' triggered START
+then
+    esp_garden.sendCommand(ON)
+end
+
+rule "night start" /* ????????? ???? */
+when
+    Channel 'astro:sun:home:night#event' triggered START
+then
+    esp_garden.sendCommand(OFF)
+end
+
+rule "morningNight start" 
+when
+    Channel 'astro:sun:home:morningNight#event' triggered END
+then
+    esp_garden.sendCommand(ON)
+end
+
+rule "Sunrise start" /*????? ????????? ?????? */
+when
+    Channel 'astro:sun:home:rise#event' triggered START
+then
+    esp_garden.sendCommand(OFF)
+end
+       

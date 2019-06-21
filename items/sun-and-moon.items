@@ -1,0 +1,19 @@
+DateTime         Sunrise_Time       "Sunrise [%1$tH:%1$tM]"                   { channel="astro:sun:home:rise#start" }
+DateTime         Sunset_Time        "Sunset [%1$tH:%1$tM]"                    { channel="astro:sun:home:set#start" }
+Number:Angle     Azimuth            "Azimuth"                                 { channel="astro:sun:home:position#azimuth" }
+Number:Angle     Elevation          "Elevation"                               { channel="astro:sun:home:position#elevation" }
+String           MoonPhase          "MoonPhase"                               { channel="astro:moon:home:phase#name" }
+Number:Length    MoonDistance       "MoonDistance [%.1f %unit%]"              { channel="astro:moon:home:distance#distance" }
+Number:Intensity Total_Radiation    "Radiation [%.2f %unit%]"                 { channel="astro:sun:home:radiation#total" }
+Number:Intensity Diffuse_Radiation  "Diffuse Radiation [%.2f %unit%]"         { channel="astro:sun:home:radiation#diffuse" }
+DateTime         EveningNight       "Evening night start [%1$tH:%1$tM]"                   { channel="astro:sun:home:eveningNight#start" }
+DateTime         morningNightS       "Morning Night start [%1$tH:%1$tM]"                   { channel="astro:sun:home:morningNight#start" }
+DateTime         morningNightE       "Morning Night end [%1$tH:%1$tM]"                   { channel="astro:sun:home:morningNight#end" }
+
+
+DateTime         DayLightS       "DayLight Start [%1$tH:%1$tM]"                   { channel="astro:sun:home:daylight#start" }
+DateTime         DayLightE       "DayLight End [%1$tH:%1$tM]"                   { channel="astro:sun:home:daylight#end" }
+DateTime         NightS       "Night start [%1$tH:%1$tM]"                   { channel="astro:sun:home:night#start" }
+DateTime         NightE       "night end [%1$tH:%1$tM]"                   { channel="astro:sun:home:night#end" }
+DateTime         SetS       "Set start [%1$tH:%1$tM]"                   { channel="astro:sun:home:set#start" }
+DateTime         SetE       "Set end [%1$tH:%1$tM]"                   { channel="astro:sun:home:set#end" }
